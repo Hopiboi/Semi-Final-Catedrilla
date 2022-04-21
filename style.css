@@ -1,0 +1,74 @@
+html, body {
+
+    height: 100%;
+    margin: 0;
+
+}
+
+
+#container {
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#grid-container {
+
+    text-align: center;
+
+}
+
+.grid{
+    
+    width: 6%;
+    margin-right: 10px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    font-size: 65px;
+    font-weight: 900;
+    cursor: pointer;
+    text-align: center;
+}
+
+#turn-indicator {
+    font-size: 20px;
+    font-weight: 600;
+    color: dodgerblue;
+    margin-top: 28px;
+
+}
+
+#round-number-indicator {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(18, 32, 156);
+}
+
+#goback {
+    font-size: 20px;
+    font-weight: 600;
+    color: dodgerblue;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+#textbox{
+    width: 100px;
+    height: 20px;
+    border-radius: 4px;
+}   
+
+#confirm{
+    border-radius: 2px;
+}
+
+#undo{
+    border-radius: 2px;
+}
+
+#reset{
+    border-radius: 2px;
+}
